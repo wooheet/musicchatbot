@@ -10,8 +10,7 @@ def hello():
 
 @app.route("/ask", methods=['POST'])
 def ask():
-	message = str(request.form['messageText'])
-
+	message = str(unicode("request.form['messageText']","euc-kr").encode("euc-kr"))
 	kernel = aiml.Kernel()
 
 	if os.path.isfile("bot_brain.brn"):

@@ -5,7 +5,7 @@
 <pattern>LOAD AIML B</pattern>
 <template>
 
-<!-- Load standard AIML set -->
+<!-- Load standard AIML set 
 <learn>aiml/standard/std-65percent.aiml</learn>
 <learn>aiml/standard/std-atomic.aiml</learn>
 <learn>aiml/standard/std-botmaster.aiml</learn>
@@ -42,8 +42,9 @@
 <learn>aiml/standard/std-yesno.aiml</learn>
 
 
-<!-- Load additional AIML set -->
-<learn>aiml/additional/computer.aiml</learn>
+Load additional AIML set
+<learn>aiml/additional/computer.aiml</learn> -->
+<learn>aiml/Musicher/MusicTitle.aiml</learn>
 
 </template>
 </category>
